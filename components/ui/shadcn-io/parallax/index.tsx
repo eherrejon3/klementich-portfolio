@@ -20,9 +20,10 @@ export default function Parallax() {
         <motion.div className={styles.parallaxImage} style={{ y }}>
             <Image src="/IA-Picture.jpg" alt="Parallax background" layout="fill" objectFit="cover" />
         </motion.div>
+        
         <div className={styles.parallaxContent}>
             {/* Image Container */}
-            <Image src="/eloisa-profile-1.png" width={200} height={350} alt="Moving Overlay" />
+            <Image src="/eloisa-profile-1.png" width={350} height={600} alt="Moving Overlay" />
             {/* Text Container */}
             <div className={styles.centeredContent}>
                 <h1 className="font-bold mb-4">Eloisa Klementich</h1>
