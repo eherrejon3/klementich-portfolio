@@ -89,9 +89,7 @@ export default function ResponsiveGrid() {
               </div>
             </div>
           </div>
-        </section>
-
-        <section className="bg-[#F1F2F6]">
+          <hr style={{ color: '#48A9A6', backgroundColor: '#48A9A6', width: '50%', height: 2, border: 'none', margin: 'auto' }} />
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-12 py-12 md:py-20">
               
@@ -121,6 +119,7 @@ export default function ResponsiveGrid() {
             </div>
           </div>
         </section>
+
 
       </div>
   );
